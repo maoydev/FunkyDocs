@@ -3,8 +3,6 @@ backend:
   repo: maoydev/FunkyDocs
   branch: main
   base_url: https://sveltia-cms-auth.maoydev-534.workers.dev
-  auth_methods:
-    - oauth
 
 media_folder: docs/assets/images
 public_folder: /assets/images
