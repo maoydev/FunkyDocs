@@ -1,0 +1,19 @@
+
+# MkDocs generated output
+
+site/
+
+# OS junk
+
+.DS_Store
+
+# Python
+
+__pycache__/
+
+*.py[cod]
+
+.venv/
+
+venv/
+

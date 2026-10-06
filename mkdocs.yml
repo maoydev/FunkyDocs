@@ -1,0 +1,9 @@
+site_name: Robotics Documentation
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Programming: programming.md
+  - Machining: machining.md
