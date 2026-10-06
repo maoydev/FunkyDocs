@@ -1,9 +1,16 @@
 site_name: Robotics Documentation
 
+repo_url: https://github.com/maoydev/FunkyDocs
+repo_name: maoydev/FunkyDocs
+edit_uri: edit/main/docs/
+
 theme:
   name: material
+  features:
+    - content.action.edit
 
 nav:
   - Home: index.md
   - Programming: programming.md
   - Machining: machining.md
+

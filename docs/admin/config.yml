@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: maoydev/FunkyDocs
+  branch: main
+
+media_folder: docs/assets/images
+public_folder: /assets/images
+
+collections:
+  - name: pages
+    label: Pages
+    folder: docs
+    create: true
+
+    fields:
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Body
+        name: body
+        widget: richtext
