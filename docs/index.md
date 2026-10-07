@@ -5,7 +5,7 @@ Welcome to our team documentation.
 ## Quick Links
 
 - [Programming](programming.md)
-- [Machining](machining.md)
+- [Machining](machining/index.md)
 
 ## Important Information
 

@@ -1,4 +1,5 @@
 site_name: Robotics Documentation
+site_url: https://docdev.clangker.com
 
 repo_url: https://github.com/maoydev/FunkyDocs
 repo_name: maoydev/FunkyDocs
@@ -7,10 +8,18 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - toc.follow
     - content.action.edit
+    - content.code.copy
 
 nav:
   - Home: index.md
   - Programming: programming.md
-  - Machining: machining.md
-
+  - Machining:
+      - Overview: machining/index.md
+      - Band Saw: machining/band-saw.md
